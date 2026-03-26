@@ -1,9 +1,16 @@
-# Calculator-on-Java
+package com.example.calculatoronjava;
 
+import androidx.appcompat.app.AppCompatActivity;
 
-## Code fragment
-```java
-    public class MainActivity extends AppCompatActivity {
+import android.annotation.SuppressLint;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.EditText;
+import android.widget.TextView;
+
+public class MainActivity extends AppCompatActivity {
 
     private EditText editText1;
     private EditText editText2;
@@ -59,5 +66,3 @@
         }
     }
 }
-```
-### [Github teachers: gomarmadi](https://github.com/gomarmadi)
